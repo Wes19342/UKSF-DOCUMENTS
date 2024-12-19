@@ -3,8 +3,8 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #0d0d0d; /* Pitch-dark background */
-  color: #e6e6e6; /* Light text for readability */
+  background-color: #000000; /* Pitch black background */
+  color: #ffffff; /* White text for high contrast */
 }
 
 /* Container */
@@ -12,6 +12,9 @@ body {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  background-color: #0d0d0d; /* Slightly lighter black for the content area */
+  border-radius: 10px; /* Rounded corners for modern look */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9); /* Shadow for content area */
 }
 
 /* Header */
@@ -24,7 +27,7 @@ header {
   position: absolute;
   top: 20px;
   left: 20px;
-  height: 80px; /* Larger logo */
+  height: 100px; /* Larger logo */
   filter: grayscale(100%) brightness(1.2); /* Tactical-style effect */
 }
 
@@ -42,7 +45,7 @@ header {
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: #b3b3b3; /* Light gray for subtitle */
+  color: #b3b3b3; /* Subtle light gray */
   margin-bottom: 20px;
 }
 
@@ -51,10 +54,10 @@ header {
   font-size: 1rem;
   text-align: justify;
   padding: 20px;
-  background-color: #1a1a1a; /* Dark gray content background */
-  border: 1px solid #333; /* Subtle border */
+  background-color: #1a1a1a; /* Dark gray content box */
+  border: 1px solid #333; /* Subtle border for structure */
   border-radius: 5px;
-  color: #d9d9d9; /* Softer text color for readability */
+  color: #e6e6e6; /* Softer white text for readability */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Subtle shadow for content box */
 }
 
