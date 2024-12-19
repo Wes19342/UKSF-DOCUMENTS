@@ -3,8 +3,8 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #1a1a1a; /* Dark background */
-  color: #e6e6e6; /* Light text */
+  background-color: #0d0d0d; /* Pitch-dark background */
+  color: #e6e6e6; /* Light text for readability */
 }
 
 /* Container */
@@ -17,15 +17,15 @@ body {
 /* Header */
 header {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .logo {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  height: 50px;
-  filter: grayscale(100%) brightness(1.2); /* Subtle military-style effect */
+  top: 20px;
+  left: 20px;
+  height: 80px; /* Larger logo */
+  filter: grayscale(100%) brightness(1.2); /* Tactical-style effect */
 }
 
 /* Title and Subtitle */
@@ -42,7 +42,7 @@ header {
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: #cccccc; /* Subtle grey */
+  color: #b3b3b3; /* Light gray for subtitle */
   margin-bottom: 20px;
 }
 
@@ -51,13 +51,14 @@ header {
   font-size: 1rem;
   text-align: justify;
   padding: 20px;
-  background-color: #262626; /* Darker content background */
-  border: 1px solid #444; /* Border for emphasis */
+  background-color: #1a1a1a; /* Dark gray content background */
+  border: 1px solid #333; /* Subtle border */
   border-radius: 5px;
-  color: #d9d9d9; /* Softer text for readability */
+  color: #d9d9d9; /* Softer text color for readability */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Subtle shadow for content box */
 }
 
 /* Add subtle shadow to text */
-.title, .subtitle, .content {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+.title, .subtitle {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
