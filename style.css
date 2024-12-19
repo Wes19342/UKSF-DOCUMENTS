@@ -1,10 +1,10 @@
 /* General Reset */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #1a1a1a; /* Dark background */
+  color: #e6e6e6; /* Light text */
 }
 
 /* Container */
@@ -25,6 +25,7 @@ header {
   top: 10px;
   left: 10px;
   height: 50px;
+  filter: grayscale(100%) brightness(1.2); /* Subtle military-style effect */
 }
 
 /* Title and Subtitle */
@@ -33,12 +34,15 @@ header {
   font-size: 2.5rem;
   margin: 20px 0 10px;
   font-weight: bold;
+  color: #ffcc00; /* SAS gold accent */
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
-  color: #666;
+  color: #cccccc; /* Subtle grey */
   margin-bottom: 20px;
 }
 
@@ -46,8 +50,14 @@ header {
 .content {
   font-size: 1rem;
   text-align: justify;
-  padding: 10px 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #262626; /* Darker content background */
+  border: 1px solid #444; /* Border for emphasis */
   border-radius: 5px;
+  color: #d9d9d9; /* Softer text for readability */
+}
+
+/* Add subtle shadow to text */
+.title, .subtitle, .content {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
 }
